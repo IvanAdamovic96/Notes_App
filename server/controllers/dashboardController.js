@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 //Dashboard
 exports.dashboard = async(req, res) => {
     const locals = {
-        title: 'Dashboard',
+        title: 'My Notes',
         description: 'Just another practise'
     }
 
