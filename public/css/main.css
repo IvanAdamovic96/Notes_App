@@ -5,7 +5,7 @@
 
 :root {
     --background-color: #ffc700;
-    --bs-primary-rgb: #12296c;
+    --bs-primary-rgb: #9bb4ff;
 }
 
 body {
@@ -14,10 +14,29 @@ body {
     flex-direction: column;
     font-weight: 300;
     font-size: 1.2rem;
+    /*
     background: linear-gradient(90deg, rgb(201, 216, 221) 0%, rgb(214, 230, 233) 100%);
+    */
+    background-image: url('../img/bg2.png');
     min-height: 100vh;
 }
 
+header{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.05));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 32px;
+    
+}
+
+.custom-header{
+    margin-top: 20px;
+}
+
+#search-form{
+    width: 20%;
+}
 
 footer{
     margin-top: auto;
