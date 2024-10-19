@@ -1,0 +1,22 @@
+<div class="container-fluid pb-5 mt-5 mb-5">
+
+    <div class="row g-2 g-lg-3">
+
+        <% if(searchResults != '') { %>
+
+            <% searchResults.forEach(function (note, index) { %>
+                <div class="card">
+                    <a href="/dashboard/item/<%= note._id %>">
+                        <h4><%= note.title %></h4>
+                    </a>
+                    <div class="card-body"><%= note.body %></div>
+                </div>
+            <% }) %>
+
+        <% } else { %>
+            <p>No items found.</p>
+        <% } %>
+
+    </div>
+
+</div>

@@ -1,11 +1,10 @@
 #container {
     max-width: 1600px;
-    border: 1px solid red;
 }
 
 :root {
     --background-color: #ffc700;
-    --bs-primary-rgb: #9bb4ff;
+    --bs-primary-rgb: #ffffff;
 }
 
 body {
@@ -17,8 +16,14 @@ body {
     /*
     background: linear-gradient(90deg, rgb(201, 216, 221) 0%, rgb(214, 230, 233) 100%);
     */
-    background-image: url('../img/bg2.png');
+    background-image: url('../img/111.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100vh;
+}
+
+.kid{
+    background-image: url('../img/bg2.png');
 }
 
 header{
